@@ -169,7 +169,7 @@ ol {
 .search-form__checkbox[type="checkbox"] + .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
-  background-color: #000;
+  background-color: transparent;
   border: 1px solid #fff;
   box-sizing: border-box;
   display: flex;
@@ -193,11 +193,15 @@ ol {
   flex-direction: column;
   justify-content: flex-start;
   min-height: 534px;
+  min-width: 399px;
 }
 
 .content__accent {
-  color: #545050;
   margin-bottom: 28px;
+}
+
+.content__card-link:active {
+  color: #545050; 
 }
 
 .content__list {
@@ -208,7 +212,6 @@ ol {
 
 .content__list-item:not(:last-child) {
   margin-bottom: 31px;
-  padding-right: 5px;
 }
 
 .content__card-link {
@@ -232,7 +235,7 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  width: 194px;
+  width: 177px;
   height: 106px;
   object-fit: cover;
   object-position: center;
@@ -300,7 +303,7 @@ ol {
 .button {
   cursor: pointer;
   border: 1px solid white;
-  background-color: #1b1919;
+  background-color: transparent;
   color: white;
   text-align: center;
   font-family: "Fira Sans Condensed", sans-serif;
